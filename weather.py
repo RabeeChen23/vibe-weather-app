@@ -7,5 +7,4 @@ weather_data = {
 }
 
 city, info = random.choice(list(weather_data.items()))
-_ = 1 / 0
-print(f"{city}: {info['天气']}，{info['温度']}，湿度 {info['湿度']}")
+print(""f"{city}: {info['天气']}，{info['温度']}，湿度 {info['湿度']}""")
